@@ -1,0 +1,27 @@
+* {
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+body {
+    display: block;
+    text-align: center;
+}
+
+.title {
+    padding: 20px;
+        h1 {
+            color: white;
+        }
+}
+
+.recipe {
+    display: inline-block;
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+                li {
+                    padding-bottom: 10px;
+                }
+        }
+}
